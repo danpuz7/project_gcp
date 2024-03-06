@@ -1,4 +1,4 @@
-resource "vpc" {
+resource "google_compute_network" "vpc_network" {
   source  = "terraform-google-modules/network/google"
   version = "9.0.0"
 
