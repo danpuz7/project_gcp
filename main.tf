@@ -1,4 +1,4 @@
-resource "google_compute_network" "vpc_network" {
+resource "google_compute_network" {
   project                 = "just-zoo-416400"
   name                    = "myfirstproject"
   routing_mode            = "GLOBAL"
